@@ -14,10 +14,7 @@ module Ruboty
         get.each do |tweet|
           case tweet
           when ::Twitter::Tweet
-            robot.receive(
-              body: tweet.text,
-              from: tweet.user.screen_name,
-              tweet: tweet
+              message.reply(tweet.text)
             )
           end
        end
