@@ -1,12 +1,21 @@
-# Rubotry::Jisin
+# Ruboty::Jisin
 
 An ruboty handler to show earthquake information from twitter
+
+## Installation
+
+add line to Gemefile
+
+```
+gem "ruboty-jisin", github: 'tfunato/ruboty-jisin'
+```
 
 ## Usage
 
 ```
 @ruboty jisin
 ```
+via: https://twitter.com/zishin3255_2
 
 ## ENV
 
