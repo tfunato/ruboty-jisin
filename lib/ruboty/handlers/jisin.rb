@@ -15,7 +15,6 @@ module Ruboty
           case tweet
           when ::Twitter::Tweet
               message.reply(tweet.text)
-            )
           end
        end
       end
